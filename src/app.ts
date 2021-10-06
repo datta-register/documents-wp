@@ -19,9 +19,9 @@ export class App {
                 el,
                 listName: Strings.Lists.Documents,
                 enableSearch: true,
-                onFilterRendered: el => {
+                onSearchRendered: el => {
                     // Update the class
-                    el.classList.add("ms-2");
+                    el.classList.add("mx-2");
                 },
                 onShowFilter: () => {
                     this._filters.show();
