@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Documents WebPart",
+    "id": "f83be8bb-83f2-4496-8d9f-45bd0f656297",
+    "version": "0.0.0.1",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Gunjan Datta <gudatta@microsoft.com>",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "../../dist/documents-wp.sppkg"
+  }
+}

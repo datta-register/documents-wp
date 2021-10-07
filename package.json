@@ -4,9 +4,10 @@
   "description": "A documents webpart example.",
   "main": "src/index.ts",
   "scripts": {
-    "all": "node ./clean.js && npm run build && npm run prod && npm run spfx",
-    "build": "webpack --mode=development",
-    "prod": "webpack --mode=production",
+    "all": "npm run clean && npm run build && npm run prod && npm run spfx",
+    "build": "webpack --mode development",
+    "clean": "node ./clean.js",
+    "prod": "webpack --mode production",
     "spfx": "cd spfx && npm run package"
   },
   "repository": {
